@@ -8,13 +8,13 @@ Then, unarchived the file downloaded and run the python script on the file named
 
 
 > Usage : Python3 csvConvertor.py
- <!-- \n -->;
+ <!-- \n -->
 > Enterthe path of the source _.csv (./credentials.csv by default) 
- <!-- \n -->;
+ <!-- \n -->
 > $ ./credentials.csv
- <!-- \n -->;
+ <!-- \n -->
 > Enterthe path of the destination _.csv (./bitwarden.csv by default)
- <!-- \n -->;
+ <!-- \n -->
 > $ ./bitwarden.csv
 
 Then go to the [Bitwarden](bitwarden.com) website, Tools, Importing data, Select BITWARDEN (CSV), and upload the csv file made by the script.
