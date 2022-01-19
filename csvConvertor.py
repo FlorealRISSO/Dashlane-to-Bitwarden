@@ -123,8 +123,8 @@ def save_bitwarden_csv(bitwarden_lists : List ,file_name : str = "./bitwarden.cs
 
     
 def main():
-    dash_filename = input("Enterthe path of the source _.csv (./credentials.csv by default)") or "./credentials.csv";
-    bit_filename = input("Enterthe path of the destination _.csv (./bitwarden.csv by default)") or "./bitwarden.csv";
+    dash_filename = input("Enter the path of the source _.csv (./credentials.csv by default)") or "./credentials.csv";
+    bit_filename = input("Enter the path of the destination _.csv (./bitwarden.csv by default)") or "./bitwarden.csv";
     bitwarden_lists = format_to_bitwarden(dash_filename)
     save_bitwarden_csv(bitwarden_lists,file_name=bit_filename)
     print("[Info] : ",bit_filename,"filled")
