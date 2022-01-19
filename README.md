@@ -9,11 +9,11 @@ Then, unarchived the file downloaded and run the python script on the file named
 
 > Usage : Python3 csvConvertor.py
  <!-- \n -->
-> Enterthe path of the source _.csv (./credentials.csv by default) 
+> Enter the path of the source _.csv (./credentials.csv by default) 
  <!-- \n -->
 > $ ./credentials.csv
  <!-- \n -->
-> Enterthe path of the destination _.csv (./bitwarden.csv by default)
+> Enter the path of the destination _.csv (./bitwarden.csv by default)
  <!-- \n -->
 > $ ./bitwarden.csv
 
