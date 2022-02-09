@@ -6,16 +6,13 @@ When I wanted to change my password manager, I noticed that each software had it
 Go to the [Dashlane](https://www.dashlane.com/)  website, connect you, and click on **My Account**, Export the data and choose **CSV**.
 Then, unarchived the file downloaded and run the python script on the file named "./credentials.csv". 
 
-
-> Usage : Python3 csvConvertor.py
- <!-- \n -->
-> Enter the path of the source _.csv (./credentials.csv by default) 
- <!-- \n -->
-> $ ./credentials.csv
- <!-- \n -->
-> Enter the path of the destination _.csv (./bitwarden.csv by default)
- <!-- \n -->
-> $ ./bitwarden.csv
-
+```sh
+#Usage : python3 csvConvertor.py
+$ python3 csvConvertor.py
+Enter the path of the source _.csv (./credentials.csv by default) 
+./credentials.csv
+Enter the path of the destination _.csv (./bitwarden.csv by default)
+./bitwarden.csv
+```
 Then go to the [Bitwarden](bitwarden.com) website, Tools, Importing data, Select BITWARDEN (CSV), and upload the csv file made by the script.
 
