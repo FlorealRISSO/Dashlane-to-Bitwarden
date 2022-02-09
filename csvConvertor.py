@@ -4,8 +4,6 @@ Author : Floréal RISSO
 """
 
 import csv
-from operator import delitem
-from traceback import print_tb
 from typing import List
 
 
